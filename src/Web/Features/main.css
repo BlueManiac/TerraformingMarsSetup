@@ -1,0 +1,11 @@
+.iconify {
+  vertical-align: -0.125em;
+}
+
+:root {
+  --bs-border-radius: 0;
+  --bs-border-radius-sm: 0;
+  --bs-border-radius-lg: 0;
+  --bs-border-radius-xl: 0;
+  --bs-border-radius-xxl: 0;
+}

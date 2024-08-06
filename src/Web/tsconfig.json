@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "module": "ESNext",
+    "target": "ES2017",
+    "moduleResolution": "bundler",
+    "types": [
+      // Syntax highlighting for ex. import.meta.hot in vite
+      "vite/client",
+      // Syntax highlighting for core-js
+      "core-dts",
+      // Syntax highlighting for icon components 
+      "unplugin-icons/types/vue",
+      // Syntax highlighting for routes
+      "unplugin-vue-router/client"
+    ],
+    "baseUrl": "./",
+    "paths": {
+      // Support absolute imports
+      "/*": [
+        "*"
+      ]
+    }
+  }
+}

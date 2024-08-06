@@ -1,0 +1,27 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "watch vite",
+            "type": "shell",
+            "command": "powershell",
+            "args": [
+                "-NoExit",
+                "${workspaceFolder}/src/Web/Properties/npmrun.ps1"
+            ],
+            "problemMatcher": [],
+            "presentation": {
+                "reveal": "always",
+                "panel": "new",
+                "group": "watch"
+            }
+        },
+        {
+            "label": "watch all",
+            "problemMatcher": [],
+            "dependsOn": [
+                "watch vite"
+            ]
+        }
+    ]
+}
